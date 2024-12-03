@@ -13,7 +13,7 @@ Ensure that the following softwares and libraries are installed:
   - Create a database named med_track, set up the tables according to the schema provided in the project, and ensure MySQL is running and accessible
 - Python (version 3.x): The project is written in Python and the necessary Python libraries must be installed as well.
   - Python (version 3.x) can be downloaded at this link: https://www.python.org/downloads/
-  - The expected installation directory for Python dependencies is "/medtrack/venv" and it can be created with "python -m venv venv"
+  - The expected installation directory for Python dependencies is "/medtrack/venv" and it can be created with "python -m venv venv" or pip can be used in the Anaconda Prompt to install packages
   - Ensure Python is running and accessible
 - Python Libraries: The following Python library is required for the MedTrack project.
   - pymysql: a library to interact with MySQL databases
