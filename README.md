@@ -9,20 +9,31 @@ Programming Language: Python (version 3.x)
 Ensure that the following softwares and libraries are installed:
 - MySQL Database: MedTrack requires MySQL to store and manage data. Ensure that MySQL is installed and running on your system.
   - MySQL can be downloaded at this link: https://dev.mysql.com/downloads/
-  - "/medtrack/sql" is the expected installation directory for SQL scripts and this contains the database schema and initial data SQL files
+  - Expected installation directory for MySQL Database
+    - Windows: C:\Program Files\MySQL\MySQL Server 8.0
+    - macOS: /usr/local/mysql
+    - Linux: /etc/mysql
   - Create a database named med_track, set up the tables according to the schema provided in the project, and ensure MySQL is running and accessible
 - Python (version 3.x): The project is written in Python and the necessary Python libraries must be installed as well.
   - Python (version 3.x) can be downloaded at this link: https://www.python.org/downloads/
-  - The expected installation directory for Python dependencies is "/medtrack/venv" and it can be created with "python -m venv venv" or pip can be used in the Anaconda Prompt to install packages
+  - Expected installation directory for Python
+    - Windows: C:\Python3x
+    - macOS: /usr/local/bin/python3
+    - Linux: /usr/bin/python3
   - Ensure Python is running and accessible
-- Python Libraries: The following Python library is required for the MedTrack project.
+- Python Libraries: The following Python libraries are required for the MedTrack project.
   - pymysql: a library to interact with MySQL databases
-  - To install this library, you can run the following: pip install pymysql
-  - To import the library, this line of code can be used: import pymysql
+    - To install this library, you can run the following: pip install pymysql
+    - To import the library, this line of code can be used: import pymysql
+  - matplotlib: a library for creating visualization in Python
+    - To install this library, you can run the following: pip install matplotlib
+    - To import this library, this line of code can be used: import matplotlib.pyplot as plt 
  
 ### Running the Application:
 - Run this application in a python application: finalprjcode.py
 - Enter your MySQL username and password correctly (if wrong then try again)
+- Enter whether if you are a doctor or pharmacist
+- Enter your username and password for the MedTrack system
 - The specified port in the code is 3308; change the port to 3306 if there is a port issue
 
 ## Choosing from the Main Menu:
