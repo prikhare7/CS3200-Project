@@ -1,4 +1,4 @@
-MEDTRACK SYSTEM INSTALLATION PROCESS 
+### MEDTRACK SYSTEM INSTALLATION PROCESS 
 
 This file outlines the requirements and steps involved in running the MedTrack system on your machine.
 MedTrack is a healthcare management system designed to manage patient records, medical histories, appointments, and prescriptions.
