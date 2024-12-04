@@ -28,7 +28,7 @@ Ensure that the following softwares and libraries are installed:
   - matplotlib: a library for creating visualization in Python
     - To install this library, you can run the following: pip install matplotlib
     - To import this library, this line of code can be used: import matplotlib.pyplot as plt 
- 
+
 ### Running the Application:
 - Run this application in a python application: finalprjcode.py
 - Enter your MySQL username and password correctly (if wrong then try again)
@@ -53,8 +53,10 @@ Ensure that the following softwares and libraries are installed:
   - 12: Filter prescription details by prescription ID (if you choose to do this action, you must input a specific prescription ID)
   - 13: Find expired prescriptions (if you choose to do this action, all expired prescriptions are retrieved and displayed)
   - 14: Refill expired prescriptions (if you choose to do this action, you must input an expired prescription ID and pharmacist NPI)
-  - 15: Exit (more information on this option is listed below)
+  - 15: View patient age distribution (if you choose to do this action, a pie chart showing the percentages of patients part of each age group will be displayed)
+  - 16: View patient insurance provider distribution (if you choose to do this action, a bar chart showing the number of patients on each insurance company will be displayed)
+  - 17: Exit (more information on this option is listed below)
 
 ### Exiting the Application:
-- If you would like to disconnect and exit, choose option 15 from the menu (by typing "15")
+- If you would like to disconnect and exit, choose option 17 from the menu (by typing "17")
 - This will close the connection to the database and the program will end
