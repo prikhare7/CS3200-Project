@@ -23,6 +23,7 @@ Ensure that the following softwares and libraries are installed:
 ### Running the Application:
 - Run this application in a python application: finalprjcode.py
 - Enter your MySQL username and password correctly (if wrong then try again)
+- The specified port in the code is 3308; change the port to 3306 if there is a port issue
 
 ## Choosing from the Main Menu:
 - The options are listed as the following:
