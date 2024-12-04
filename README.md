@@ -54,7 +54,7 @@ Ensure that the following softwares and libraries are installed:
   - 13: Find expired prescriptions (if you choose to do this action, all expired prescriptions are retrieved and displayed)
   - 14: Refill expired prescriptions (if you choose to do this action, you must input an expired prescription ID and pharmacist NPI)
   - 15: View patient age distribution (if you choose to do this action, a pie chart showing the percentages of patients part of each age group will be displayed)
-  - 16: View patient insurance provider distribution (if you choose to do this action, a bar chart showing the number of patients on each insurance company will be displayed)
+  - 16: View patient insurance provider distribution (if you choose to do this action, a bar chart showing the number of patients with each insurance company will be displayed)
   - 17: Exit (more information on this option is listed below)
 
 ### Exiting the Application:
